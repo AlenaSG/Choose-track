@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+.sidebar{
+  float:right;
+  font-weight: bolder;
+  color: brown;
+  background-color: salmon;
+  width: 20%;
+  padding: 15px;
+  text-align: center;
+}
