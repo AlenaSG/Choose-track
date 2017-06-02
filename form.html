@@ -10,26 +10,26 @@
 </head>
   <body>
     <div class="container">
-      <h2>Start the test!</h2>
+      <h1>Start the test!</h1>
 
       <h3>What's your name?</h3>
 
       <form id="user-info">
         <div class="form-group">
-          <label for="full-name"></label>
-          <input id="full-name" class="form-control" type="text">
+          <label for="name"></label>
+          <input id="name" class="form-control" type="text">
         </div>
 
     <h3>Can you use a computer?</h3>
       <div class="radio">
         <label>
-          <input type="radio" name="computerUser" value="canUse">
+          <input type="radio" name="compUser" value="canUse">
           Yes
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="computerUser" value="cantUse">
+          <input type="radio" name="compUser" value="cantUse">
           No
         </label>
       </div>
@@ -37,13 +37,13 @@
       <h3>Do you like working on layouts, navigation, colors, and design?</h3>
         <div class="radio">
           <label>
-            <input type="radio" name="computerUser" value="canUse">
+            <input type="radio" name="design" value="frontEnd">
             Yes
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="computerUser" value="cantUse">
+            <input type="radio" name="design" value="backEnd">
             No
           </label>
         </div>
@@ -81,8 +81,13 @@
       <br>
 
       <div class="well" id="suggestTrack">
-        <h3>Tank you for taking the quiz!</h3>
-        <p><span class="name">NAME</span>, your best bet is to take <span class="track">CSS</span>. Please go to this webpage to learn more!<span class="trackDescription"></span>.</p>
+        <h3>Thank you for taking the quiz!</h3>
+        <p><span class="name"></span>, your best bet is to take <span class="track">CSS</span>. Please go to this webpage to learn more!<span class="trackDescription"></span>.</p>
+      </div>
+
+      <div class="well" id="learnTyping">
+        <h3>Thank you for taking the quiz!</h3>
+        <p><span class="name"></span>, you need to do some prerequisites before you apply. Please refer to your <a href="https://kcls.org/">local library</a> for a free Computers 101 course!.</p>
       </div>
 
     </div>
