@@ -10,6 +10,80 @@
 </head>
   <body>
     <div class="container">
+      <h2>Start the test!</h2>
+
+      <h3>What's your name?</h3>
+
+      <form id="user-info">
+        <div class="form-group">
+          <label for="full-name"></label>
+          <input id="full-name" class="form-control" type="text">
+        </div>
+
+    <h3>Can you use a computer?</h3>
+      <div class="radio">
+        <label>
+          <input type="radio" name="computerUser" value="canUse">
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="computerUser" value="cantUse">
+          No
+        </label>
+      </div>
+
+      <h3>Do you like working on layouts, navigation, colors, and design?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="computerUser" value="canUse">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="computerUser" value="cantUse">
+            No
+          </label>
+        </div>
+
+        <h3>Would you like to work for an enterprise-level company?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="computerUser" value="canUse">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="computerUser" value="cantUse">
+              No
+            </label>
+          </div>
+
+          <h3>Would you like to build internal software?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="computerUser" value="canUse">
+                Yes
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="computerUser" value="cantUse">
+                No
+              </label>
+            </div>
+            <br>
+        <button type="submit" class="btn">Find my Track!</button>
+      </form>
+      <br>
+
+      <div class="well" id="suggestTrack">
+        <h3>Tank you for taking the quiz!</h3>
+        <p><span class="name">NAME</span>, your best bet is to take <span class="track">CSS</span>. Please go to this webpage to learn more!<span class="trackDescription"></span>.</p>
+      </div>
 
     </div>
   </body>
