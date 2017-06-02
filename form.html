@@ -51,13 +51,13 @@
         <h3>Would you like to work for an enterprise-level company?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="computerUser" value="canUse">
+              <input type="radio" name="companySize" value="big">
               Yes
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="computerUser" value="cantUse">
+              <input type="radio" name="companySize" value="small">
               No
             </label>
           </div>
@@ -65,13 +65,13 @@
           <h3>Would you like to build internal software?</h3>
             <div class="radio">
               <label>
-                <input type="radio" name="computerUser" value="canUse">
+                <input type="radio" name="application" value="internalSoft">
                 Yes
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="computerUser" value="cantUse">
+                <input type="radio" name="application" value="externalSoft">
                 No
               </label>
             </div>
@@ -80,9 +80,23 @@
       </form>
       <br>
 
-      <div class="well" id="suggestTrack">
+      <div class="well" id="suggestTrackRuby">
         <h3>Thank you for taking the quiz!</h3>
-        <p><span class="name"></span>, your best bet is to take <span class="track">CSS</span>. Please go to this webpage to learn more!<span class="trackDescription"></span>.</p>
+        <p><span class="name"></span>, Ruby would be a great way to go. Please go to <a href="https://www.epicodus.com/ruby/">this webpage</a> to learn more!
+      </div>
+
+      <div class="well" id="suggestTrackJava">
+        <h3>Thank you for taking the quiz!</h3>
+        <p><span class="name"></span>, Java could be a good language to learn. Please go to <a href="https://www.epicodus.com/java/">this webpage</a> to learn more!
+
+      <div class="well" id="suggestTrackCsharp">
+        <h3>Thank you for taking the quiz!</h3>
+        <p><span class="name"></span>, C# is a great choice. Please go to this <a href="https://www.epicodus.com/c-sharp/">webpage</a> to learn more!</p>
+      </div>
+
+      <div class="well" id="suggestTrackCss">
+        <h3>Thank you for taking the quiz!</h3>
+        <p><span class="name"></span>, you will benefit from taking our CSS/DEsign course. Please go to <a href="https://www.epicodus.com/css/">this webpage</a> and <a href="https://www.epicodus.com/design/">this webpage</a> to learn more!
       </div>
 
       <div class="well" id="learnTyping">
@@ -92,3 +106,9 @@
 
     </div>
   </body>
+
+
+  <!--<div class="well" id="suggestTrackCss">
+    <h3>Thank you for taking the quiz!</h3>
+    <p><span class="name"></span>, your best bet is to take <span class="track">CSS</span>. Please go to this webpage to learn more!<span class="trackDescription"></span>.</p>
+  </div>-->

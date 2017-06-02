@@ -5,43 +5,27 @@ $(document).ready(function() {
 
       var nameInput = $("input#name").val();
       var trackInput = $("input#track").val();
-var inputCompUser = $("input:radio[name=compUser]:checked").val();
-//var inputDesign = $("input#design").val();
-var inputCompUser = $("input:radio[name=compUser]:checked").val();
-var inputCompUser = $("input:radio[name=compUser]:checked").val();
-var inputCompUser = $("input:radio[name=compUser]:checked").val();
+
+      var inputCompUser = $("input:radio[name=compUser]:checked").val();
+      var inputDesign = $("input:radio[name=design]:checked").val();
+      var inputCompanySize = $("input:radio[name=companySize]:checked").val();
+      var inputApplication = $("input:radio[name=application]:checked").val();
 
       $(".name").text(nameInput);
       //$(".track")text(trackInput);
-      if (inputCompUser === "canUse") {
 
-            $("#suggestTrack").show();
-            $("#learnTyping").hide();
-          } else {
+      if (inputCompUser === "Yes") {
+        $("#suggestTrackCss").hide();
+        $("#suggestTrackRuby").hide();
+        $("#suggestTrackCsharp").hide();
+        $("#suggestTrackJava").hide();
+        $("#learnTyping").hide();
+      } else {
+          if (inputDesign === "Yes") {
 
-            //if (inputDesign === true) {
-                  //$("#suggestTrack").show();
-                  //$("#learnTyping").hide();
-            //  } else {
-                //alert ("second else");
-                  $("#suggestTrack").hide();
-                  $("#learnTyping").show();
-                //}
-            //$("#suggestTrack").hide();
-            //$("#learnTyping").show();
           }
 
-      //if (inputDesign === true) {
-            //$("#suggestTrack").show();
-            //$("#learnTyping").hide();
-        //  } else {
-            //$("#suggestTrack").hide();
-            //$("#learnTyping").show();
-          //}
-
-       //$("#suggestTrack").show();
-
-       event.preventDefault();
+           event.preventDefault();
 
   });
 

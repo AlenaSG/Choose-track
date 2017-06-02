@@ -15,9 +15,21 @@ h1 {
 }
 
 
-#suggestTrack {
+#suggestTrackRuby {
   display: none;
 }
 
+
+#suggestTrackJava {
+  display: none;
+}
+
+#suggestTrackCsharp {
+  display: none;
+}
+
+#suggestTrackCss {
+  display: none;
+}
 #learnTyping {
   display: none;
