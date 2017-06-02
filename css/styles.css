@@ -1,20 +1,43 @@
 h1 {
   text-align: center;
-  color: brown;
+  /*color: brown;*/
 }
 
-.sidebar{
+p {
+  font-family:serif;
+  font-size: 150%;
+}
+.sidebar {
   float:right;
   font-weight: bolder;
   color: brown;
-  background-color: salmon;
+  background-color: #F8C9A6;
   width: 20%;
   padding: 15px;
   text-align: center;
-
 }
 
+.btn {
+  background-color: #F8C9A6;
+}
 
+h3 {
+  color: brown;
+}
+
+ul {
+  font-weight: bold;
+  font-size: 120%;
+}
+img {
+  float:left;
+  margin: 30px;
+  zoom: 110%;
+}
+
+.well{
+  background-color: #F8E2A6;
+}
 #suggestTrackRuby {
   display: none;
 }
@@ -31,5 +54,7 @@ h1 {
 #suggestTrackCss {
   display: none;
 }
+
 #learnTyping {
-  display: none;
+  display: none
+}
