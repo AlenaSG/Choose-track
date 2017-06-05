@@ -30,17 +30,18 @@ ul {
   font-weight: bold;
   font-size: 120%;
 }
+
 img {
   float:left;
   margin: 30px;
   zoom: 110%;
 }
 
-.well{
+.well {
   background-color: #F8E2A6;
-}
+} 
 
-/*#suggestTrackRuby {
+#suggestTrackRuby {
   display: none;
 }
 
