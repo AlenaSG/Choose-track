@@ -12,69 +12,71 @@
     <div class="container">
       <h1 class="jumbotron">Start the test!</h1>
       <div class="well">
-      <h3>What's your name?</h3>
-      <form id="user-info">
-        <div class="form-group">
-          <label for="name"></label>
-          <input id="name" class="form-control" type="text">
-        </div>
-        <h3>Can you use a computer?</h3>
-        <div class="radio">
-        <label>
-          <input type="radio" name="compUser" value="canUse">
-          Yes
-        </label>
-        </div>
-        <div class="radio">
-        <label>
-          <input type="radio" name="compUser" value="cantUse">
-          No
-        </label>
-        </div>
-        <h3>Do you like working on layouts, navigation, colors, and design?</h3>
+        <form id="user-info">
+          <h3>What's your name?</h3>
+          <div class="form-group">
+            <label for="name"></label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <h3>Can you use a computer?</h3>
           <div class="radio">
             <label>
-            <input type="radio" name="design" value="frontEnd">
-            Yes
+              <input type="radio" name="compUser" value="canUse">
+              Yes
             </label>
           </div>
           <div class="radio">
             <label>
-            <input type="radio" name="design" value="backEnd">
-            No
+              <input type="radio" name="compUser" value="cantUse">
+              No
+            </label>
+          </div>
+          <h3>Do you like working on layouts, navigation, colors, and design?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="design" value="frontEnd">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="design" value="backEnd">
+              No
             </label>
           </div>
           <h3>Would you like to work for an enterprise-level company?</h3>
-            <div class="radio">
+          <div class="radio">
             <label>
               <input type="radio" name="companySize" value="big">
               Yes
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="companySize" value="small">
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="companySize" value="small">
               No
-              </label>
-            </div>
-            <h3>Would you like to build internal software?</h3>
-              <div class="radio">
-              <label>
-                <input type="radio" name="application" value="internalSoft">
-                Yes
-              </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="application" value="externalSoft">
-                No
-                  </label>
-                </div>
-                <br>
-              <button type="submit" class="btn btn-primary btn-lg">Find my Track!</button>
-          </form>
-        </div>
+            </label>
+          </div>
+          <h3>Would you like to build internal software?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="application" value="internalSoft">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="application" value="externalSoft">
+              No
+            </label>
+          </div>
+          <br>
+
+          <button type="submit" class="btn btn-primary btn-lg">Find my Track!</button>
+        </form>
+      </div>
       <br>
+
       <div class="well" id="suggestTrackRuby">
         <h3>Thank you for taking the quiz!</h3>
         <p><span class="name"></span>, Ruby would be a great way to go. Please go to <a href="https://www.epicodus.com/ruby/">this webpage</a> to learn more!
@@ -97,9 +99,3 @@
       </div>
     </div>
   </body>
-
-
-  <!--<div class="well" id="suggestTrackCss">
-    <h3>Thank you for taking the quiz!</h3>
-    <p><span class="name"></span>, your best bet is to take <span class="track">CSS</span>. Please go to this webpage to learn more!<span class="trackDescription"></span>.</p>
-  </div>-->
