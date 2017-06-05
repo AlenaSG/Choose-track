@@ -6,7 +6,7 @@
 
 ## Description
 
-_This my second solo project finishing my second week at Epicodus. The page helps a student to decide which track they would like to pursue before they enroll in Epicodus. Plese see the blog post "What Programming Language Should I Learn?" regarding choosing a track, as well as the course descriptions for each track at www.epicodus.com.
+This is my second solo project finishing my second week at Epicodus. The page helps a student to decide which track they would like to pursue before they enroll in Epicodus. Plese see the blog post "What Programming Language Should I Learn?" regarding choosing a track, as well as the course descriptions for each track at www.epicodus.com.
 
 This Track Suggester webpage is created using HTML, CSS, JavaScript, jQuery and conditionals with If/Else. Future students are asked a series of questions about themselves and provides a track suggestion based on their answers.
 
